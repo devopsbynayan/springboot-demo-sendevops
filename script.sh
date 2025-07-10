@@ -47,3 +47,6 @@ sudo apt-get install unzip -y
 unzip awscliv2.zip
 sudo ./aws/install
 
+#install sonarqube in docker container
+docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
+
