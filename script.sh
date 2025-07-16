@@ -10,7 +10,7 @@ sudo chmod 777 /var/run/docker.sock
 sudo apt install openjdk-17-jdk
 
 # install Maven
-sudo apt-get install maven
+sudo apt-get install maven -y
 
 # install trivy
 sudo apt-get install wget apt-transport-https gnupg lsb-release
